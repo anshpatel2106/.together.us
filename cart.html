@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTB-.handicraft</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#" class="top"><i class="fas fa-arrow-up"></i></a>
+
+    <section id="header">
+        <a href="#"><img src="images.html/hi.webp" width="150px" height="100px"  class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+
+            </ul>
+        </div>
+        <div id="mobile">
+            
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+        
+        <h2>#cart</h2>
+       
+        <p>LEAVE A MESSAGE. We love to hear from you!</p>
+   
+
+    </section>
+
+ <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td ><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="https://m.media-amazon.com/images/I/51e2GD970ML._UL1072_.jpg" alt=""></td>
+                <td>Cotton Cloth T-Shirt </td>
+                <td>$118.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.99</td>
+            </tr>
+            <tr>
+                <td ><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="https://5.imimg.com/data5/YL/AC/MY-38598873/mens-summer-t-shirts-500x500.jpg" alt=""></td>
+                <td>Cotton Cloth T-Shirt </td>
+                <td>$118.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.99</td>
+            </tr>
+            <tr>
+                <td ><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="data:image/jpeg;base64,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" alt=""></td>
+                <td>Cotton Cloth T-Shirt </td>
+                <td>$118.99</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.99</td>
+            </tr>
+        </tbody>
+    </table>
+ </section>
+
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply Here </button>
+        </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$312.99</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$312.99</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div>
+</section>
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p> Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">SIGN UP</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="images.html/hi.webp" width="150px" class="logo" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> New william Rd, New Delhi </p>
+        <p><strong>Phone: </strong>+91 1234556788 / 91 2692 6246</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804791%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804791&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9061772%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAkrWdBhBkEiwAZ9cdcCEHp32WZta9ug1mr3CUBYebYvq6bl-GkpkKZWR_9Bza8iVaJNrjSxoCgIUQAvD_BwE">  <i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/i/flow/login"> <i class="fab fa-twitter"></i></a> 
+               <a href="https://www.instagram.com/">  <i class="fab fa-instagram"></i></a> 
+               <a href="https://in.pinterest.com/">   <i class="fab fa-pinterest-p"></i></a>
+                <a href="">  <i class="fab fa-youtube"></i></a>
+  
+              </div>
+        </div>
+        
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play </p>
+        <div class="row">
+            <img width="170px" src="https://cdn.cdnlogo.com/logos/a/94/available-on-the-app-store.svg" alt="">
+            <img width="170px" height="60px" src="https://logos-world.net/wp-content/uploads/2020/12/Google-Play-Logo.jpg" alt="">
+        </div>
+        <p>Secure Payment Gateways  </p>
+        <img  width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXNGopFXdOBZRkRpY3rniLTYRcts4Wegmdw&usqp=CAU" alt="">
+    </div>
+    <div class="copyright">
+        <p>© 2022. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
